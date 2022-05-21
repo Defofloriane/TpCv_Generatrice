@@ -8,20 +8,32 @@
     <div class="sidebar-logo">
       <a href="https://ng.ant.design/" target="_blank">
         <img src="https://ng.ant.design/assets/img/logo.svg" alt="logo">
-        <h1>Ant Design Of Angular</h1>
+        <h1>Cv Generatrice</h1>
       </a>
     </div>
     <ul nz-menu nzTheme="dark" nzMode="inline" [nzInlineCollapsed]="isCollapsed">
       <li nz-submenu nzOpen nzTitle="Dashboard" nzIcon="dashboard">
         <ul>
           <li nz-menu-item nzMatchRouter>
-            <a routerLink="/welcome">Welcome</a>
+            <a  routerLink="/details">Details Personnelles</a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a>Monitor</a>
+            <a routerLink="/resumer">Resumer</a>
           </li>
           <li nz-menu-item nzMatchRouter>
-            <a>Workplace</a>
+            <a routerLink="/langues">Langue et Loisir</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/cursus" >Cursus Scolaire</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/experiences" >Experience</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/competences" >Competences</a>
+          </li>
+          <li nz-menu-item nzMatchRouter>
+            <a routerLink="/welcome">Cv</a>
           </li>
         </ul>
       </li>
